@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 
 const OfferItem = ({ offerCard }) => {
-  console.log("🚀 ~ OfferItem ~ offerCard:", offerCard);
+  // console.log("🚀 ~ OfferItem ~ offerCard:", offerCard);
   return (
     <div
       className="offer-container"

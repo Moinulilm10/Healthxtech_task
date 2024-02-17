@@ -1,5 +1,4 @@
 import { BsBag } from "react-icons/bs";
-import airpod from "../assets/airpod.png";
 
 export const offersData = [
   {
@@ -7,7 +6,7 @@ export const offersData = [
     offer: "30% Sale",
     buttonText: "Buy Now",
     icon: <BsBag />,
-    image: { airpod },
+    image: "../../src/assets/airpod.png",
     backgroundColor: "#EFF9FF",
     borderColor: "#E2F3FF",
   },
@@ -16,7 +15,7 @@ export const offersData = [
     offer: "Save 30%",
     buttonText: "See All",
     icon: null,
-    image: "https://ibb.co/TPRjWYg",
+    image: "../../src/assets/kitkat.png",
     backgroundColor: "#FFF8F0",
     borderColor: "#FDF1E5",
   },
@@ -25,7 +24,7 @@ export const offersData = [
     offer: "30% Sale",
     buttonText: "Buy Now",
     icon: <BsBag />,
-    image: "https://ibb.co/jh8LgCG",
+    image: "../../src/assets/ring.png",
     backgroundColor: "#EFF9FF",
     borderColor: "#E2F3FF",
   },
@@ -34,7 +33,7 @@ export const offersData = [
     offer: "New Arrival",
     buttonText: "Buy Now",
     icon: <BsBag />,
-    image: "https://ibb.co/Yb8GRK0",
+    image: "../../src/assets/chair.png",
     backgroundColor: "#FFECF0",
     borderColor: "#FFE1E7",
   },
