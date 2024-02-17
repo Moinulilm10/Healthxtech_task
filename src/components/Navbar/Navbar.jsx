@@ -6,7 +6,7 @@ import { MdAddShoppingCart } from "react-icons/md";
 import logo from "../../assets/logo.png";
 import RefreshIcon from "../../assets/refresh.png";
 import "./Navbar.css";
-// import NavbarDropdown from "../smallComponents/NavbarDropdown";
+import NavbarDropdown from "./NavbarDropdown";
 
 const Navbar = () => {
   //   const navigate = useNavigate();
@@ -25,9 +25,9 @@ const Navbar = () => {
             />
             <select>
               <option value="all">All Categories</option>
-              <option value="electronics">Electronics</option>
-              <option value="clothing">Clothing</option>
-              <option value="books">Books</option>
+              <option value="gadget">Gadget</option>
+              <option value="beauty_product">Beauty Product</option>
+              <option value="computers">Computers</option>
             </select>
             <button>
               <IoMdSearch className="mr-[20px]" />
@@ -35,7 +35,7 @@ const Navbar = () => {
           </div>
           <div className="nav-icon-container">
             <img src={RefreshIcon} alt="refresh-icon" />
-            <LiaHeart className="icon-heart" />
+            <LiaHeart className="icon-heart " />
             <div className="cart-container">
               <MdAddShoppingCart className="icon-cart" />
               <span className="total-cart-items">0</span>
@@ -48,9 +48,9 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {/* <div className="navbar-section-2">
+      <div className="navbar-section-2">
         <NavbarDropdown />
-      </div> */}
+      </div>
     </div>
   );
 };

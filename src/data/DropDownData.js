@@ -8,15 +8,15 @@ export const dropdownData = [
     icon: true,
     submenu: [
       {
-        title: "Product 1",
+        title: "Daily",
         path: "/products/Daily",
       },
       {
-        title: "Product 2",
+        title: "Luxury",
         path: "/products/Luxury",
       },
       {
-        title: "Product 3",
+        title: "Comfortable",
         path: "/products/Comfortable",
       },
     ],
@@ -45,11 +45,11 @@ export const dropdownData = [
             title: "Women Clothing Collections",
             submenu: [
               {
-                title: "Three Piece Collection",
+                title: "Cloth one",
                 path: "/categories/fashion collection",
               },
               {
-                title: "Saree Collection",
+                title: "Cloth two",
                 path: "/categories/fashion collection",
               },
             ],
@@ -63,7 +63,7 @@ export const dropdownData = [
     icon: true,
     submenu: [
       {
-        title: "Page 1",
+        title: "Newsletter",
         path: "/pages/Newsletter",
       },
     ],
@@ -89,7 +89,7 @@ export const dropdownData = [
     path: "/flash-sale",
   },
   {
-    title: "About us",
-    path: "/about-us",
+    title: "Contact",
+    path: "/contact",
   },
 ];

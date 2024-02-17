@@ -1,11 +1,28 @@
-import Navbar from "./components/Navbar/Navbar";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Home from "./components/Home.jsx/Home";
+import Main from "./layout/Main";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-    </>
-  );
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Main />,
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
+        // {
+        //   path: "/products/:id",
+        //   loader: async ({ params }) => {
+        //     return fetch(`https://dummyjson.com/products/${params.id}`);
+        //   },
+        //   element: <SingleProductPage />,
+        // },
+      ],
+    },
+  ]);
+  return <RouterProvider router={router}></RouterProvider>;
 }
 
 export default App;

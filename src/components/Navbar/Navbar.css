@@ -101,7 +101,7 @@
 }
 
 :is(.nav-icon-container) :where(.icon-heart) {
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
     color: black;
 }
@@ -165,9 +165,9 @@
 /* navbar section 2 started from here */
 :is(.dropdown-container) {
     display: flex;
-    align-items: center;
+    /* align-items: center;
     justify-content: center;
-    gap: 254px;
+    gap: 16px; */
 }
 
 :is(.navbar) :where(.navbar-section-2) {
@@ -186,8 +186,8 @@
     justify-content: flex-start;
     font-size: 1.1rem;
     font-weight: 600;
-    gap: 20px;
-    padding: 16px 30px;
+    gap: 10px;
+    padding: 0px 15px;
     color: white;
     cursor: pointer;
 }
