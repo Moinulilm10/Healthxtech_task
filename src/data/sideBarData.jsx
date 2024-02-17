@@ -1,6 +1,6 @@
 import { HiOutlineChevronRight, HiOutlinePlusSm } from "react-icons/hi";
 
-export const sidebarDataOptions = [
+export const sidebarData = [
   {
     title: "Fashion Collection",
     path: "/fashion-collection",
