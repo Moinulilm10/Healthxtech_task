@@ -101,7 +101,7 @@
 }
 
 :is(.nav-icon-container) :where(.icon-heart) {
-    font-size: 30px;
+    font-size: 35px;
     cursor: pointer;
     color: black;
 }

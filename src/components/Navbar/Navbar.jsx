@@ -30,12 +30,12 @@ const Navbar = () => {
               <option value="computers">Computers</option>
             </select>
             <button>
-              <IoMdSearch className="mr-[20px]" />
+              <IoMdSearch className="mr-[20px] text-[25px]" />
             </button>
           </div>
           <div className="nav-icon-container">
             <img src={RefreshIcon} alt="refresh-icon" />
-            <LiaHeart className="icon-heart " />
+            <LiaHeart className="icon-heart" />
             <div className="cart-container">
               <MdAddShoppingCart className="icon-cart" />
               <span className="total-cart-items">0</span>
