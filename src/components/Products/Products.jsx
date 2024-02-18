@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import SingleProduct from "./Product";
 import ProductLoading from "./ProductLoading";
-import "./products.css";
+import "./Products.css";
 
 const Products = () => {
   const [isLoading, setIsLoading] = useState(false);
