@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
+import "./OfferItems.css";
 
 const OfferItem = ({ offerCard }) => {
   // console.log("🚀 ~ OfferItem ~ offerCard:", offerCard);

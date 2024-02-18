@@ -75,3 +75,13 @@
     height: 180px;
     z-index: 3;
 }
+
+@media (max-width: 768px) {
+    .offer-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin-top: 20px;
+        gap: 20px;
+    }
+}
