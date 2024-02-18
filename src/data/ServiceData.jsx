@@ -1,4 +1,4 @@
-import { BiSolidOffer } from "react-icons/bi";
+import { MdPriceCheck } from "react-icons/md";
 import { RiCustomerService2Line } from "react-icons/ri";
 import { TbTruckDelivery, TbTruckReturn } from "react-icons/tb";
 
@@ -14,7 +14,7 @@ export const servicesData = [
     subTitle: "Contact us 24 Hours",
   },
   {
-    icon: <BiSolidOffer />,
+    icon: <MdPriceCheck />,
     title: "Best Prices & offers",
     subTitle: "Order $100 or more",
   },

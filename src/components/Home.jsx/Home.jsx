@@ -9,7 +9,7 @@ const Home = () => {
     <div className="home">
       <Banner />
       <OfferItems />
-      <div className="services-products-container flex flex-col lg:flex lg:flex-row">
+      <div className="services-products-container ">
         <Services />
         <Products />
       </div>
