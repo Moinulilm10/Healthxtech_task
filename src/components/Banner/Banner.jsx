@@ -1,7 +1,7 @@
 import banner from "../../assets/banner-pic.png";
 import Sidebar from "../Sidebar/Sidebar";
 import "../Sidebar/Sidebar.css";
-import "./banner.css";
+import "./Banner.css";
 
 const Banner = () => {
   return (
