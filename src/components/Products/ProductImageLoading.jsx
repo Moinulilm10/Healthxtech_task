@@ -1,4 +1,4 @@
-import "./productImageLoading.css";
+import "./ProductImageLoading.css";
 
 const ProductImageLoading = () => {
   return (
