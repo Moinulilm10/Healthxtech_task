@@ -34,10 +34,10 @@ const Navbar = () => {
             </button>
           </div>
           <div className="nav-icon-container">
-            <img src={RefreshIcon} alt="refresh-icon" />
+            <img src={RefreshIcon} className="mt-2" alt="refresh-icon" />
             <LiaHeart className="icon-heart" />
             <div className="cart-container">
-              <MdAddShoppingCart className="icon-cart" />
+              <MdAddShoppingCart className="icon-cart mt-[8px]" />
               <span className="total-cart-items">0</span>
             </div>
           </div>
